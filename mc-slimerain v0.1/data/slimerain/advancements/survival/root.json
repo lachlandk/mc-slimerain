@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Sticky Situation"
+        },
+        "description": {
+            "text": "Survive a slime rain without dying once. (Not implemented yet)"
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/blocks/slime_block.png"
+    },
+    "criteria": {
+        "survive_slimerain": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

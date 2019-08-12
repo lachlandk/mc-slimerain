@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Pretty in Pink"
+        },
+        "description": {
+            "text": "Find and kill a pinky during a slime rain. (Not implemented yet)"
+        },
+        "icon": {
+            "item": "minecraft:pink_dye"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill_pinky": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "slimerain:survival/thats_a_big_slime"
+}
