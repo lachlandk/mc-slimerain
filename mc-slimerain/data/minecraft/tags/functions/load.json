@@ -1,0 +1,6 @@
+{
+  "values": [
+      "slimerain:core/uninstall",
+      "slimerain:core/load"
+   ]
+}

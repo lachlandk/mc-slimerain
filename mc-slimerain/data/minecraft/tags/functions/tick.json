@@ -1,0 +1,6 @@
+{
+  "values": [
+    "slimerain:core/tick",
+    "#slimerain:item_functions"
+   ]
+}
