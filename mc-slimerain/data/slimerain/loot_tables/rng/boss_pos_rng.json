@@ -1,0 +1,17 @@
+{
+	"pools": [{
+		"rolls": {
+			"min": 30,
+			"max": 80
+		},
+		"entries": [{
+			"type": "item",
+			"weight": 1,
+			"name": "minecraft:slime_ball",
+			"functions": [{
+				"function": "set_count",
+				"count": 0
+			}]
+		}]
+	}]
+}
