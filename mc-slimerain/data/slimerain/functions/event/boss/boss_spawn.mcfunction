@@ -1,4 +1,4 @@
-summon minecraft:slime ~ 100 ~ {Health:100f,Size:10,Tags:["slimerain.king_slime"],ActiveEffects:[{Id:28b,Amplifier:1b,Duration:600,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:100}]}
+summon minecraft:slime ~ 100 ~ {PersistenceRequired:1b,Health:100f,Size:10,Tags:["slimerain.king_slime"],ActiveEffects:[{Id:28b,Amplifier:1b,Duration:600,ShowParticles:0b}],Attributes:[{Name:generic.maxHealth,Base:100}]}
 execute store result score game slimerain.boss_x run data get entity @e[type=minecraft:slime,tag=slimerain.king_slime,limit=1] Pos[0]
 execute store result score game slimerain.boss_z run data get entity @e[type=minecraft:slime,tag=slimerain.king_slime,limit=1] Pos[2]
 scoreboard players set game slimerain.boss_spawned 1
