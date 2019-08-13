@@ -1,0 +1,18 @@
+{
+  "display": {
+    "title": "Slime Rain v0.2",
+    "description": "Adds a new type of weather which causes slimes to fall from the sky!",
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "background": "minecraft:textures/block/black_concrete_powder.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:thedarknova",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

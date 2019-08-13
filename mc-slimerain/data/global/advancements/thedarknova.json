@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "_TheDarkNova_",
+        "description": "",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Name: \"_TheDarkNova_\", Properties: {textures: [{Value: \"eyJ0aW1lc3RhbXAiOjE1NjU2MzA2NjM1MzUsInByb2ZpbGVJZCI6IjdjNTM3YzRmNjljOTRiN2FhZGMwMzVkODllMjI5MDgzIiwicHJvZmlsZU5hbWUiOiJfVGhlRGFya05vdmFfIiwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhmMGEyZTNjYTk2NDMxN2Q0ZDIwODc0ZGE3ZThmN2QxMjM2OTI2MDkxY2JkMTVjOGNkZWViYjYwNTM0MTA0ZWIifX19\"}]}}}"
+        },
+        "background": "minecraft:textures/block/black_concrete_powder.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
