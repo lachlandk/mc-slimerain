@@ -44,5 +44,5 @@
             "killed_slime"
         ]
     ],
-    "parent": "slimerain:root"
+    "parent": "slimerain:survival/root"
 }

@@ -68,5 +68,5 @@
             "killed_purple_slime"
         ]
     ],
-    "parent": "slimerain:bouncy_bouncy_skeletons"
+    "parent": "slimerain:survival/bouncy_bouncy_skeletons"
 }

@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"killed_king_slime": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:slime",
+					"nbt": "{Tags:[\"slimerain.king_slime\"]}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"killed_king_slime"
+		]
+	],
+	"rewards": {
+		"function": "slimerain:event/boss/boss_killed"
+	}
+}

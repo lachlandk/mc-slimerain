@@ -27,5 +27,5 @@
             "no_deaths"
         ]
     ],
-    "parent": "slimerain:root"
+    "parent": "slimerain:survival/root"
 }

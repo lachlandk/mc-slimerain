@@ -33,8 +33,5 @@
             "killed_boss"
         ]
     ],
-    "rewards": {
-        "function": "slimerain:boss/reward_other_players"
-    },
-    "parent": "slimerain:sticky_situation"
+    "parent": "slimerain:survival/sticky_situation"
 }
