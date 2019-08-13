@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Pretty in Pink",
+            "color": "light_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Find and kill a pinky during a slime rain. (Not implemented yet)"
+        },
+        "icon": {
+            "item": "minecraft:slime_ball",
+            "nbt": "{Enchantments:[id:\"\",lvl:1s]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killed_pinky": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"slimerain.pinky\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killed_pinky"
+        ]
+    ],
+    "parent": "slimerain:gelatin_world_tour"
+}

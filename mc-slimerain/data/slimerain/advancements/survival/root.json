@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Slime Rain",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Slime is falling from the sky!"
+        },
+        "icon": {
+            "item": "minecraft:slime_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/slime_block.png"
+    },
+    "criteria": {
+        "event_start": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "event_start"
+        ]
+    ]
+}

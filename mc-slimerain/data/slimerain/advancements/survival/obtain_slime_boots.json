@@ -1,0 +1,44 @@
+{
+    "display": {
+        "title": {
+            "text": "Bouncy Shoes",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Obtain a pair of slime boots."
+        },
+        "icon": {
+            "item": "minecraft:leather_boots",
+            "nbt": "{display:{color:65280}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "obtained_boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:leather_boots",
+                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Slime Boots\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":true}\",color:65280},jumpBoots:1}",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "data": 0
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "obtained_boots"
+        ]
+    ],
+    "parent": "slimerain:root"
+}

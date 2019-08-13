@@ -1,0 +1,48 @@
+{
+    "display": {
+        "title": {
+            "text": "Bouncy bouncy skeletons",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Defeat a slime jockey, an agile, ranged foe."
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killed_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton",
+                    "nbt": "{Tags:[\"slimerain.slime_jockey\"]}"
+                }
+            }
+        },
+        "killed_slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"slimerain.slime_jockey\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killed_skeleton"
+        ],
+        [
+            "killed_slime"
+        ]
+    ],
+    "parent": "slimerain:root"
+}

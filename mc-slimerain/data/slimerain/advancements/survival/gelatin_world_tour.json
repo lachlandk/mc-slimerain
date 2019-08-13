@@ -1,0 +1,72 @@
+{
+    "display": {
+        "title": {
+            "text": "Gelatin World Tour",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Kill at least one of every colour of special slime spawned from a slime rain. (Not implemented yet)"
+        },
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killed_blue_slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"slimerain.blue_slime\"]}"
+                }
+            }
+        },
+        "killed_red_slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"slimerain.red_slime\"]}"
+                }
+            }
+        },
+        "killed_yellow_slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"slimerain.yellow_slime\"]}"
+                }
+            }
+        },
+        "killed_purple_slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"slimerain.purple_slime\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killed_blue_slime"
+        ],
+        [
+            "killed_red_slime"
+        ],
+        [
+            "killed_yellow_slime"
+        ],
+        [
+            "killed_purple_slime"
+        ]
+    ],
+    "parent": "slimerain:bouncy_bouncy_skeletons"
+}

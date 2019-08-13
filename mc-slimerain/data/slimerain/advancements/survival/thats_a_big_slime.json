@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "That's a big slime",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Deafeat the King Slime. (Not implemented yet)"
+        },
+        "icon": {
+            "item": "minecraft:golden_helmet",
+            "nbt": "{Enchantments:[id:\"\",lvl:1s]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killed_boss": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"slimerain.king_slime\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "killed_boss"
+        ]
+    ],
+    "rewards": {
+        "function": "slimerain:boss/reward_other_players"
+    },
+    "parent": "slimerain:sticky_situation"
+}
