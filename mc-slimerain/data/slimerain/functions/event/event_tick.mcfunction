@@ -9,4 +9,5 @@ execute in minecraft:overworld as @a[distance=0..,scores={slimerain.spawn_rng=0}
 
 execute in minecraft:overworld as @a[distance=0..,scores={slimerain.spawn_rng=0}] run summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["slimerain.spawn_marker"]}
 execute in minecraft:overworld as @a[distance=0..,scores={slimerain.spawn_rng=0}] run execute store result score @e[type=minecraft:area_effect_cloud,tag=slimerain.spawn_marker,limit=1,sort=nearest] slimerain.player_y_pos run data get entity @s Pos[1]
+execute in minecraft:overworld as @a[distance=0..,scores={slimerain.spawn_rng=0}] run execute store result score @e[type=minecraft:area_effect_cloud,tag=slimerain.spawn_marker,limit=1,sort=nearest] slimerain.slime_size run loot spawn ~ ~ ~ loot slimerain:rng/slime_size_rng
 execute in minecraft:overworld at @a[distance=0..,scores={slimerain.spawn_rng=0}] as @e[type=minecraft:area_effect_cloud,tag=slimerain.spawn_marker,limit=1,sort=nearest] run function slimerain:event/slime_spawn
