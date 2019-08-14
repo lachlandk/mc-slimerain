@@ -11,6 +11,7 @@ scoreboard objectives add slimerain.spawn_rng dummy
 scoreboard objectives add slimerain.sky_access dummy
 scoreboard objectives add slimerain.player_y_pos dummy
 scoreboard objectives add slimerain.slime_size dummy
+scoreboard objectives add slimerain.player_death deathCount
 
 scoreboard objectives add slimerain.boss_x dummy
 scoreboard objectives add slimerain.boss_z dummy

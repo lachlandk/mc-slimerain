@@ -1,5 +1,8 @@
 execute if score game slimerain.slime_rain_on = 0 slimerain.constants run tellraw @a {"text":"Slime is falling from the sky!","color":"green","bold":true}
 
+scoreboard players reset @a slimerain.player_death
+scoreboard players set @a slimerain.player_death 0
+
 execute if score game slimerain.slime_rain_on = 0 slimerain.constants run weather rain 600
 execute if score game slimerain.slime_rain_on = 0 slimerain.constants run schedule function slimerain:event/event_end 600s
 

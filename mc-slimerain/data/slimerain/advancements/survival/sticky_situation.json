@@ -6,7 +6,7 @@
             "bold": true
         },
         "description": {
-            "text": "Survive a slime rain without dying once. (Not implemented yet)"
+            "text": "Survive a slime rain without dying once."
         },
         "icon": {
             "item": "minecraft:diamond_sword",
