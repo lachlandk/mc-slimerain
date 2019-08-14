@@ -1,1 +1,8 @@
-summon minecraft:slime ~ 100 ~ {Size:2,ActiveEffects:[{Id:28b,Amplifier:1b,Duration:600,ShowParticles:0b}]}
+spreadplayers ~ ~ 0 20 false @s
+execute at @s store result score @s slimerain.sky_access if blocks ~ ~1 ~ ~ 255 ~ ~ ~1 ~ masked
+execute if score @s slimerain.sky_access = 0 slimerain.constants run execute store result entity @s Pos[1] double 1 run scoreboard players get @s slimerain.sky_access
+execute if score @s slimerain.sky_access = 0 slimerain.constants at @s run summon minecraft:slime ~ ~50 ~ {ActiveEffects:[{Id:28b,Amplifier:1b,Duration:600,ShowParticles:0b}]}
+
+scoreboard players reset @s slimerain.sky_access
+scoreboard players reset @s slimerain.player_y_pos
+kill @s

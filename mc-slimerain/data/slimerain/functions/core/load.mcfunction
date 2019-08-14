@@ -8,6 +8,9 @@ scoreboard players set game slimerain.slime_rain_on 0
 scoreboard players set game slimerain.slime_killcount 0
 
 scoreboard objectives add slimerain.spawn_rng dummy
+scoreboard objectives add slimerain.sky_access dummy
+scoreboard objectives add slimerain.player_y_pos dummy
+
 scoreboard objectives add slimerain.boss_x dummy
 scoreboard objectives add slimerain.boss_z dummy
 scoreboard objectives add slimerain.boss_spawned dummy
