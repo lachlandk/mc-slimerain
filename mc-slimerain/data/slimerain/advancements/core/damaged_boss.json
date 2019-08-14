@@ -1,21 +1,21 @@
 {
-    "criteria": {
-        "damaged_boss": {
-            "trigger": "minecraft:player_hurt_entity",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:slime",
-                    "nbt": "{Tags:[\\\"slimerain.king_slime\\\"]}"
-                }
-            }
-        }
-    },
-    "requirements": [
-        [
-            "damaged_boss"
-        ]
-    ],
-    "rewards": {
-        "function": "slimerain:event/boss/damaged_boss"
-    }
+	"criteria": {
+		"damaged_boss": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:slime",
+					"nbt": "{Tags:[\"slimerain.king_slime\"]}"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"damaged_boss"
+		]
+	],
+	"rewards": {
+		"function": "slimerain:event/boss/damaged_boss"
+	}
 }

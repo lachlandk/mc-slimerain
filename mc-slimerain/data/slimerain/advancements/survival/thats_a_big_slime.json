@@ -6,11 +6,11 @@
             "bold": true
         },
         "description": {
-            "text": "Deafeat the King Slime. (Not implemented yet)"
+            "text": "Defeat the King Slime."
         },
         "icon": {
             "item": "minecraft:golden_helmet",
-            "nbt": "{Enchantments:[id:\"\",lvl:1s]}"
+            "nbt": "{Enchantments:[{id:\"\",lvl:1s}]}"
         },
         "frame": "challenge",
         "show_toast": true,

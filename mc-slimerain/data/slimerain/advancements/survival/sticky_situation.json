@@ -10,7 +10,7 @@
         },
         "icon": {
             "item": "minecraft:diamond_sword",
-            "nbt": "{Enchantments:[id:\"\",lvl:1s]}"
+            "nbt": "{Enchantments:[{id:\"\",lvl:1s}]}"
         },
         "frame": "goal",
         "show_toast": true,

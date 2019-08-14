@@ -1,1 +1,1 @@
-scoreboard players set @s slimerain.damaged_boss 1
+scoreboard players set @s sl.damaged_boss 1

@@ -10,7 +10,7 @@
         },
         "icon": {
             "item": "minecraft:slime_ball",
-            "nbt": "{Enchantments:[id:\"\",lvl:1s]}"
+            "nbt": "{Enchantments:[{id:\"\",lvl:1s}]}"
         },
         "frame": "challenge",
         "show_toast": true,
